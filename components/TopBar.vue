@@ -16,8 +16,9 @@
       </t-select>
       <t-link theme="primary">博客文章</t-link>
     </div>
-    <div>
-      <!-- TODO: search bar -->
+    <div class="search_container">
+      <t-input placeholder="搜索博客文章"/>
+      <t-icon name="search" class="search_icon"/>
     </div>
   </div>
 </template>
@@ -51,6 +52,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .logo_placeholder_container {
@@ -77,5 +80,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .search_container {
+    width: 192px;
+    position: relative;
+  }
+  .search_icon {
+    position: absolute;
+    top: 50%;
   }
 </style>

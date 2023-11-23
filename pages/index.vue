@@ -6,13 +6,11 @@ import TopBar from "~/components/TopBar.vue";
 <template>
   <div>
     <TopBar />
-    <div>
-      <t-swiper class="tdesign-demo-block--swiper" :duration="300" :interval="2000">
-        <t-swiper-item v-for="item in 1" :key="item">
-          <t-image src="/images/banner_1.png" />
-        </t-swiper-item>
-      </t-swiper>
-    </div>
+    <t-swiper class="tdesign-demo-block--swiper" :duration="300" :interval="2000">
+      <t-swiper-item v-for="item in 2" :key="item">
+<!--        <t-image src="/images/banner_1.png" />-->
+      </t-swiper-item>
+    </t-swiper>
   </div>
 </template>
 
