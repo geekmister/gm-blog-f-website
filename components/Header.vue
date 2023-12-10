@@ -1,9 +1,7 @@
 <template>
-  <div class="container">
-    <t-space direction="horizontal" align="center" size="small">
-      <t-image :style="{width: '48px', height: '48px'}" src="/images/Logo@2x.png" alt="" shape="circle"/>
-      <span class="name">Geekmister</span>
-    </t-space>
+  <div class="gb-component-header-container">
+    <img class="gb-component-header-logo-image" src="/images/Logo@2x.png"/>
+    <span class="gb-component-header-logo-name">Geekmister</span>
   </div>
 </template>
 
@@ -12,13 +10,25 @@
 </script>
 
 <style scoped>
-  .container {
-    width: 100%;
-    height: 64px;
+  .gb-component-header-container {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
-    padding-left: 24px;
+    width: calc(1440px - 8px);
+    height: 64px;
+  }
+
+  .gb-component-header-logo-image {
+    width: 48px;
+    height: 48px;
+  }
+
+  .gb-component-header-logo-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #18191B;
+    letter-spacing: 2px;
+    margin-left: 8px;
   }
 </style>

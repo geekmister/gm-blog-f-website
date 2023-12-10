@@ -1,14 +1,14 @@
 <template>
   <html>
     <body>
-      <ArticlesLayout />
+      <MainLayout />
     </body>
   </html>
 </template>
 
 <script setup lang="ts">
 
-import ArticlesLayout from "~/layouts/ArticlesLayout.vue";
+import MainLayout from "~/layouts/MainLayout.vue";
 </script>
 
 <style>
