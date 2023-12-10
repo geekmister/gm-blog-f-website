@@ -1,0 +1,30 @@
+@font-face {
+    font-family: PingFang-SC-Regular;
+    font-display: swap;
+    src:
+        url("/public/fonts/PingFang.ttc") format("truetype");
+}
+
+@font-face {
+    font-family: PingFang-SC-Ultralight;
+    font-display: swap;
+    src:
+        url("/public/fonts/PingFang.ttc") format("truetype");
+}
+
+@font-face {
+    font-family: PingFang-SC-Thin;
+    font-display: swap;
+    src:
+        url("/public/fonts/PingFang.ttc") format("truetype");
+}
+
+.name {
+    width: 118px;
+    height: 25px;
+    font-family: PingFang-SC-Ultralight, serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #18191B;
+    letter-spacing: 2px;
+}
