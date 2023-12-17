@@ -2,32 +2,34 @@
   <div class="gb-page-index-container">
     <div class="gb-page-index-article-list-container">
       <template v-for="(item, index) in articles" :key="index">
-        <div class="gb-page-index-article-list-item-container">
-          <img class="gb-page-index-article-list-item-cover-image" :src="item.coverImage"/>
-          <p class="gb-page-index-article-list-item-title">{{item.title}}</p>
-          <p class="gb-page-index-article-list-item-desc">{{item.desc}}</p>
-          <div class="gb-page-index-article-list-item-divider"/>
-          <div class="gb-page-index-article-list-item-props-container">
-            <div class="gb-page-index-article-list-item-props-item-container">
-              <img class="gb-page-index-article-list-item-props-item-icon"
-                   src="/icons/icon-time@2x.png"/>
-              <sapn class="gb-page-index-article-list-item-props-item-text">{{item.time}}</sapn>
+        <NuxtLink to="/article-details">
+          <div class="gb-page-index-article-list-item-container">
+            <img class="gb-page-index-article-list-item-cover-image" :src="item.coverImage"/>
+            <p class="gb-page-index-article-list-item-title">{{item.title}}</p>
+            <p class="gb-page-index-article-list-item-desc">{{item.desc}}</p>
+            <div class="gb-page-index-article-list-item-divider"/>
+            <div class="gb-page-index-article-list-item-props-container">
+              <div class="gb-page-index-article-list-item-props-item-container">
+                <img class="gb-page-index-article-list-item-props-item-icon"
+                     src="/icons/icon-time@2x.png"/>
+                <sapn class="gb-page-index-article-list-item-props-item-text">{{item.time}}</sapn>
+              </div>
+              <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
+                <img class="gb-page-index-article-list-item-props-item-icon"
+                     src="/icons/icon-location@2x.png"/>
+                <sapn class="gb-page-index-article-list-item-props-item-text">{{item.location}}</sapn>
+              </div>
+              <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
+                <img class="gb-page-index-article-list-item-props-item-icon"
+                     src="/icons/icon-read-views@2x.png"/>
+                <sapn class="gb-page-index-article-list-item-props-item-text">{{item.readViews}}</sapn>
+              </div>
             </div>
-            <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
-              <img class="gb-page-index-article-list-item-props-item-icon"
-                  src="/icons/icon-location@2x.png"/>
-              <sapn class="gb-page-index-article-list-item-props-item-text">{{item.location}}</sapn>
-            </div>
-            <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
-              <img class="gb-page-index-article-list-item-props-item-icon"
-                  src="/icons/icon-read-views@2x.png"/>
-              <sapn class="gb-page-index-article-list-item-props-item-text">{{item.readViews}}</sapn>
+            <div class="gb-page-index-article-list-item-date-container">
+              <span class="gb-page-index-article-list-item-date">{{item.date}}</span>
             </div>
           </div>
-          <div class="gb-page-index-article-list-item-date-container">
-            <span class="gb-page-index-article-list-item-date">{{item.date}}</span>
-          </div>
-        </div>
+        </NuxtLink>
       </template>
     </div>
     <div class="gb-page-index-article-special-column-container">
