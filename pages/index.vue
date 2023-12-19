@@ -11,17 +11,17 @@
             <div class="gb-page-index-article-list-item-props-container">
               <div class="gb-page-index-article-list-item-props-item-container">
                 <img class="gb-page-index-article-list-item-props-item-icon"
-                     src="/icons/icon-time@2x.png"/>
+                     src="/icons/icon-time-light@2x.png"/>
                 <sapn class="gb-page-index-article-list-item-props-item-text">{{item.time}}</sapn>
               </div>
               <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
                 <img class="gb-page-index-article-list-item-props-item-icon"
-                     src="/icons/icon-location@2x.png"/>
+                     src="/icons/icon-location-light@2x.png"/>
                 <sapn class="gb-page-index-article-list-item-props-item-text">{{item.location}}</sapn>
               </div>
               <div class="gb-page-index-article-list-item-props-item-container gb-page-index-article-list-item-props-item-space">
                 <img class="gb-page-index-article-list-item-props-item-icon"
-                     src="/icons/icon-read-views@2x.png"/>
+                     src="/icons/icon-read-views-light@2x.png"/>
                 <sapn class="gb-page-index-article-list-item-props-item-text">{{item.readViews}}</sapn>
               </div>
             </div>
@@ -42,15 +42,15 @@
             <p class="gb-page-index-article-special-column-item-info-desc">{{item.desc}}</p>
             <div class="gb-page-index-article-special-column-item-info-pops-container">
               <div class="gb-page-index-article-special-column-item-info-pops-item-container">
-                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-read-views@2x.png"/>
+                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-read-views-light@2x.png"/>
                 <span class="gb-page-index-article-special-column-item-info-pops-item-text">{{item.readViews}}</span>
               </div>
               <div class="gb-page-index-article-special-column-item-info-pops-item-container gb-page-index-article-special-column-item-info-pops-item-space">
-                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-edit-acticle@2x.png"/>
+                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-edit-light@2x.png"/>
                 <span class="gb-page-index-article-special-column-item-info-pops-item-text">{{item.articles}}</span>
               </div>
               <div class="gb-page-index-article-special-column-item-info-pops-item-container gb-page-index-article-special-column-item-info-pops-item-space">
-                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-time@2x.png"/>
+                <img class="gb-page-index-article-special-column-item-info-pops-item-icon" src="/icons/icon-time-light@2x.png"/>
                 <span class="gb-page-index-article-special-column-item-info-pops-item-text">{{item.date}}</span>
               </div>
             </div>
