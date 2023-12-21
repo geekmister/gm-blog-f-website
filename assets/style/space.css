@@ -2,6 +2,10 @@
     margin-top: 8px;
 }
 
+.m-top-16 {
+    margin-top: 16px;
+}
+
 .m-top-24 {
     margin-top: 24px;
 }
@@ -12,4 +16,8 @@
 
 .m-left-16 {
     margin-left: 16px;
+}
+
+.m-left-24px {
+    margin-left: 24px;
 }

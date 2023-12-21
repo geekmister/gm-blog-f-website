@@ -9,18 +9,15 @@
           <div class="gb-component-article-list-item-desc-divider"/>
           <div class="gb-component-article-list-item-props-container">
             <div class="gb-component-article-list-item-props-item-container">
-              <img class="gb-component-article-list-item-props-item-icon"
-                   src="/icons/icon-time-light@2x.png"/>
+              <img class="gb-component-article-list-item-props-item-icon" src="/icons/icon-time-light@2x.png"/>
               <sapn class="gb-component-article-list-item-props-item-text">{{item.time}}</sapn>
             </div>
             <div class="gb-component-article-list-item-props-item-container gb-component-article-list-item-props-item-space">
-              <img class="gb-component-article-list-item-props-item-icon"
-                   src="/icons/icon-location-light@2x.png"/>
+              <img class="gb-component-article-list-item-props-item-icon" src="/icons/icon-location-light@2x.png"/>
               <sapn class="gb-component-article-list-item-props-item-text">{{item.location}}</sapn>
             </div>
             <div class="gb-component-article-list-item-props-item-container gb-component-article-list-item-props-item-space">
-              <img class="gb-component-article-list-item-props-item-icon"
-                   src="/icons/icon-read-views-light@2x.png"/>
+              <img class="gb-component-article-list-item-props-item-icon" src="/icons/icon-read-views-light@2x.png"/>
               <sapn class="gb-component-article-list-item-props-item-text">{{item.readViews}}</sapn>
             </div>
           </div>
@@ -64,7 +61,6 @@
     align-items: flex-start;
     width: 912px;
   }
-
   .gb-component-article-list-item-container {
     display: flex;
     flex-direction: column;
@@ -75,12 +71,10 @@
     box-shadow: -2px -2px 10px 0 #A7ABB3, 2px 2px 10px 0 #A7ABB3;
     position: relative;
   }
-
   .gb-component-article-list-item-cover-image {
     width: 100%;
     height: 388px;
   }
-
   .gb-component-article-list-item-title {
     margin: 24px 24px 0 24px;
     font-weight: 600;
@@ -90,7 +84,6 @@
     height: 25px;
     line-height: 25px;
   }
-
   .gb-component-article-list-item-desc {
     margin: 8px 24px 0 24px;
     font-weight: 400;
@@ -98,7 +91,6 @@
     color: #52555A;
     letter-spacing: 0;
   }
-
   .gb-component-article-list-item-desc-divider {
     width: calc(100% - 24px - 24px);
     margin-top: 24px;
@@ -106,7 +98,6 @@
     margin-right: 24px;
     border-bottom: 1px solid #a7abb333;
   }
-
   .gb-component-article-list-item-props-container {
     display: flex;
     flex-direction: row;
@@ -115,19 +106,16 @@
     width: calc(100% - 24px - 24px);
     margin: 26px 24px 24px 24px;
   }
-
   .gb-component-article-list-item-props-item-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-
   .gb-component-article-list-item-props-item-icon {
     width: 16px;
     height: 16px;
   }
-
   .gb-component-article-list-item-props-item-text {
     font-weight: 400;
     font-size: 12px;
@@ -135,11 +123,9 @@
     letter-spacing: 0;
     margin-left: 4px;
   }
-
   .gb-component-article-list-item-props-item-space {
     margin-left: 80px;
   }
-
   .gb-component-article-list-item-date-container {
     display: flex;
     flex-direction: row;
@@ -153,7 +139,6 @@
     top: 24px;
     left: 24px;
   }
-
   .gb-component-article-list-item-date {
     font-weight: 600;
     font-size: 14px;
