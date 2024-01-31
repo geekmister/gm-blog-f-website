@@ -15,7 +15,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: calc(1440px - 8px);
+    width: 1392px;
+    padding: 0 24px 0 24px;
     height: 64px;
   }
 
@@ -23,7 +24,6 @@
     width: 48px;
     height: 48px;
   }
-
   .gb-component-header-logo-name {
     font-weight: 600;
     font-size: 18px;

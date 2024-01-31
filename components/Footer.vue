@@ -61,14 +61,12 @@
 
 <style scoped>
   .gm-components-footer-container {
-    width: 1440px;
-    height: calc(416px - 24px - 32px);
+    width: 1392px;
+    padding: 32px 24px 32px 24px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 24px;
-    padding-bottom: 32px;
   }
 
   .footer_top_container {
